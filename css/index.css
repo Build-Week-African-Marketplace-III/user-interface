@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5 {
 /* suggested by Simone */
 
 body {
+    
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -77,3 +78,65 @@ body {
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
+  }
+
+    .links {
+      border: 1px solid black;
+      display: flex;
+      justify-content: space-around;
+     
+  }
+
+  a {
+    color: white;
+
+   }
+  body {
+    background-image: url("../img/color\ swatch\ pm.png");
+    background-blend-mode: color-dodge;
+  }
+  .top {
+    
+   
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .top img {
+    width: 100%;
+
+    height: 200%;
+    
+  }
+  .products {
+    display: flex;
+    justify-content: space-between;
+  }
+   
+  .fabric {
+     margin-top: 30px;
+    width: 25%;
+   height: 450px;
+   border: 1px solid black;
+  }
+  
+  .fabric img{
+    max-width: 100%;
+    object-fit: scale-down;
+    margin-bottom: 5px;
+  }
+
+  .clothes {
+    margin-top: 30px;
+    width: 25%;
+    height: 450px;
+      border: 1px solid black;
+
+  }
+
+  .fabric img {
+    max-width: 100%;
+    object-fit: scale-down;
+    margin-bottom: 5px; 
+  }

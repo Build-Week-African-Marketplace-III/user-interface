@@ -76,3 +76,33 @@ body {
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
+  }
+  .links {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+a {
+  color: white;
+
+ }
+body {
+  background-image: url("../img/color\ swatch\ pm.png");
+  background-blend-mode: color-dodge;
+}
+.top {
+  
+ 
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.top img {
+  width: 100%;
+
+  height: 200%;
+  
+}
