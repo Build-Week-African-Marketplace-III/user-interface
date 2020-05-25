@@ -172,6 +172,67 @@ body {
     margin-bottom: 5px; 
      }
 
+
+     .testimonials {
+       display:flex;
+       justify-content: space-around;
+     }
      h5 {
        margin-top: 20px;
+     }
+
+     .zuri {
+      margin-top: 10px;
+      width: 15%;
+      height: 450px;
+       
+     }
+
+     .zuri img {
+      max-width: 100%;
+      object-fit: scale-down;
+      margin-bottom: 5px; 
+     }
+     figcaption {
+       font-size: small;
+       font-style: italic;
+       margin-bottom: 10px;
+     }
+     .nyala {
+      margin-top: 10px;
+      width: 15%;
+      height: 450px;
+       
+     }
+
+     .nyala img {
+      max-width: 100%;
+      object-fit: scale-down;
+      margin-bottom: 5px; 
+     }
+
+     .shanti {
+      margin-top: 10px;
+      width: 15%;
+      height: 450px;
+       
+     }
+
+     .shanti img {
+      max-width: 100%;
+      object-fit: scale-down;
+      margin-bottom: 5px; 
+     }
+
+     .harold {
+      margin-top: 10px;
+      width: 15%;
+      height: 450px;
+       
+     }
+
+     .harold img {
+      max-width: 100%;
+      object-fit: scale-down;
+      margin-bottom: 5px; 
      }
