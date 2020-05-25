@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* suggested by Simone */
 
+html {
+  color: whitesmoke;
+}
+
 body {
     
     margin: 0;
@@ -115,10 +119,10 @@ body {
   }
    
   .fabric {
-     margin-top: 30px;
-    width: 25%;
+     margin-top: 10px;
+    width: 22%;
    height: 450px;
-   border: 1px solid black;
+   
   }
   
   .fabric img{
@@ -128,15 +132,46 @@ body {
   }
 
   .clothes {
-    margin-top: 30px;
-    width: 25%;
+    margin-top: 10px;
+    width: 22%;
     height: 450px;
-      border: 1px solid black;
+     
 
   }
 
-  .fabric img {
+  .clothes img {
     max-width: 100%;
     object-fit: scale-down;
     margin-bottom: 5px; 
   }
+
+  .coconut {
+    margin-top: 10px;
+    width: 22%;
+    height: 450px;
+     
+      }
+
+     .coconut img {
+       
+    max-width: 100%;
+    object-fit: scale-down;
+    margin-bottom: 5px; 
+     } 
+
+     .lunch {
+      margin-top: 10px;
+      width: 22%;
+      height: 450px;
+       
+     }
+
+     .lunch img {
+      max-width: 100%;
+    object-fit: scale-down;
+    margin-bottom: 5px; 
+     }
+
+     h5 {
+       margin-top: 20px;
+     }
