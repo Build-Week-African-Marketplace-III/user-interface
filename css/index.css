@@ -171,6 +171,18 @@ h5 {
   align-items: center;
   margin: 1px 5%;
 }
+.testimony-info-mobile {
+  margin-top: 30px;
+  width: 50%;
+  height: 350px;
+  align-items: center;
+  margin: 5px 20%;
+}
+.testimony-img-mobile {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
 html {
   color: whitesmoke;
 }
@@ -301,6 +313,12 @@ figcaption {
   margin-bottom: 5px;
 }
 @media (max-width: 500px) {
+  html {
+    color: black;
+  }
+  html .next {
+    margin: 10px;
+  }
   .links {
     flex-direction: column;
   }
@@ -346,5 +364,50 @@ figcaption {
     height: 450px;
     align-items: center;
     margin: 1px 5%;
+  }
+  .testimonials {
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .zuri {
+    margin-top: 30px;
+    width: 50%;
+    height: 350px;
+    align-items: center;
+    margin: 5px 20%;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+  .nyala {
+    margin-top: 30px;
+    width: 50%;
+    height: 350px;
+    align-items: center;
+    margin: 5px 20%;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+  .shanti {
+    margin-top: 30px;
+    width: 50%;
+    height: 350px;
+    align-items: center;
+    margin: 5px 20%;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+  .harold {
+    margin-top: 30px;
+    width: 50%;
+    height: 350px;
+    align-items: center;
+    margin: 5px 20%;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
   }
 }
