@@ -312,6 +312,11 @@ figcaption {
   object-fit: scale-down;
   margin-bottom: 5px;
 }
+footer {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
 @media (max-width: 500px) {
   html {
     color: black;
@@ -366,7 +371,6 @@ figcaption {
     margin: 1px 5%;
   }
   .testimonials {
-    border: 1px solid black;
     flex-direction: column;
     justify-content: center;
   }
