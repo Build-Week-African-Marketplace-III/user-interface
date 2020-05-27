@@ -15,7 +15,7 @@ body {
       monospace;
   }
   .links {
-    border: 1px solid black;
+   
     display: flex;
     justify-content: space-around;
    
@@ -67,6 +67,15 @@ body {
     margin-bottom: 30px;
 }
 @media (max-width: 500px) {
+  
+  .top{
+    display:none;
+  }
+  
+  .links{
+    flex-direction: column;
+    align-items: center;
+}  
 
   h4 {
     text-align: center;
@@ -78,7 +87,7 @@ body {
   .team {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     align-items: center;
     
   }
