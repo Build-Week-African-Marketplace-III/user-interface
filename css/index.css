@@ -147,7 +147,7 @@ h5 {
 .product-info {
   margin-top: 10px;
   width: 22%;
-  height: 450px;
+  height: 400px;
 }
 .product-img {
   max-width: 100%;
@@ -196,6 +196,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 .links {
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-around;
 }
@@ -221,7 +222,7 @@ body {
 .fabric {
   margin-top: 10px;
   width: 22%;
-  height: 450px;
+  height: 400px;
 }
 .fabric img {
   max-width: 100%;
@@ -231,7 +232,7 @@ body {
 .clothes {
   margin-top: 10px;
   width: 22%;
-  height: 450px;
+  height: 400px;
 }
 .clothes img {
   max-width: 100%;
@@ -241,7 +242,7 @@ body {
 .coconut {
   margin-top: 10px;
   width: 22%;
-  height: 450px;
+  height: 400px;
 }
 .coconut img {
   max-width: 100%;
@@ -251,7 +252,7 @@ body {
 .lunch {
   margin-top: 10px;
   width: 22%;
-  height: 450px;
+  height: 400px;
 }
 .lunch img {
   max-width: 100%;
